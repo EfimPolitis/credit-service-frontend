@@ -1,0 +1,19 @@
+$primary-color: #14dda7;
+$primary-color-hover: #17fec1;
+$secondary-color: #0f0f0f;
+$gradient: linear-gradient(
+  45deg,
+  rgba(18, 18, 18, 1) 0%,
+  rgba(0, 0, 0, 1) 58%,
+  rgba(0, 93, 68, 1) 100%
+);
+$text-color: #ddd;
+$header-bg: #151515;
+$font-stack:
+  ui-sans-serif,
+  system-ui,
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  Segoe UI Symbol,
+  'Noto Color Emoji';

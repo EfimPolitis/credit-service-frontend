@@ -1,0 +1,50 @@
+@import '@/styles/variables';
+
+.field {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+
+    svg {
+      height: 30px;
+      width: 30px;
+      color: $text-color;
+    }
+  }
+
+  input {
+    width: 100%;
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 2px;
+    outline: none;
+    border: 2px solid $text-color;
+    border-radius: 10px;
+    transition: border-color 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: $secondary-color;
+    color: $text-color;
+    // box-shadow: inset 20px 20px 0px 20px #f3f2eb;
+
+    &:hover {
+      border-color: $primary-color;
+    }
+
+    &:focus {
+      border-color: $primary-color;
+      border-width: 3px;
+    }
+  }
+
+  .error {
+    display: block;
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}

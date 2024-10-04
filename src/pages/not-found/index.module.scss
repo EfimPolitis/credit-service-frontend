@@ -1,0 +1,13 @@
+.not_found {
+  margin-top: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  a {
+    font-size: 24px;
+  }
+}
